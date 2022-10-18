@@ -22,6 +22,7 @@
   People add their calendars (more on that later). Then choose the people who will attend the meeting and the time it will take, for example: Pedro, Nuno and José are in for a 30 min meeting.
   Then choose calculate and Taskmaster will get the calendars and find a timeslot in the current week.
   
+Ready to start using it?
     
       HOW TO DEPLOY?
       
@@ -31,3 +32,20 @@
         python main.py
       - Add the bot to your Discord server with permission to read messages and slash commands.
       - Use the slash commands
+      
+So now you have the bot running
+      
+
+      HOW TO USE?
+      
+      - First add as many calendars as you want with the command:
+      /new_calendar
+      * Note that the calendar has to be in the .ical format and be public. As matter the fact, the calendar doesn't need to be publicly available, but public for people with a link. In the case of Google Calendar you have a secret ical address you can use.
+      
+      - Then, when everyone has added their calendar you need to include them in a calculation with the command:
+      /find_timeslot users add
+      
+      - Now you just have to tell Taskmaster to begin the calculation with the command:
+      /find_timeslot users calculate
+      
+      AND DONE!
