@@ -40,7 +40,9 @@ So now you have the bot running
       
       - First add as many calendars as you want with the command:
       /new_calendar
-      * Note that the calendar has to be in the .ical format and be public. As matter the fact, the calendar doesn't need to be publicly available, but public for people with a link. In the case of Google Calendar you have a secret ical address you can use.
+      * Note that the calendar has to be a iCal URL in the .ics format and be public.
+      As matter the fact, the calendar doesn't need to be publicly available, but public for people with a link.
+      In the case of Google Calendar you have a secret ical address you can use.
       
       - Then, when everyone has added their calendar you need to include them in a calculation with the command:
       /find_timeslot users add
